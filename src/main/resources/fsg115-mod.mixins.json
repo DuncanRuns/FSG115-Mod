@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.duncanruns.fsg115.mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandManagerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CreateWorldScreenMixin"
+  ]
+}
